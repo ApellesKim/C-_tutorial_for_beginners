@@ -113,14 +113,20 @@ using namespace std;
 
 
 // Getting user input
-int main ()
-{
-    int age;
+// int main ()
+// {
+//     int age;
 
-    cout << "What is your age: ";
-    cin >> age;
+//     cout << "What is your age: ";
+//     cin >> age;
 
-    cout << "You are " << age << " years old";
+//     cout << "You are " << age << " years old" << endl;
 
-    return 0;
-}
+//     string name;
+//     cout << "Enter your name: ";
+//     getline(cin, name);
+
+//     cout << "Hello " << name;
+
+//     return 0;
+// }
