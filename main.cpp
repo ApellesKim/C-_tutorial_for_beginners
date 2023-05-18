@@ -130,3 +130,44 @@ using namespace std;
 
 //     return 0;
 // }
+
+
+
+// Building a calculator
+// int main ()
+// {
+//     double num1, num2;
+
+//     cout << "Enter first number: ";
+//     cin >> num1;
+    
+//     cout << "Enter second number: ";
+//     cin >> num2;
+
+//     cout << num1 + num2;
+
+//     return 0;
+// }
+
+
+
+//Building a mad libs game
+int main ()
+// {
+//     string color, pluralNoun, celebrity;
+
+//     cout << "enter a color: ";
+//     getline (cin, color);
+//     cout << "enter a plural noun: ";
+//     getline (cin, pluralNoun);
+//     cout << "enter a celebrity: ";
+//     getline (cin, celebrity);
+
+//     cout << "-----------------------------------------------" << endl;
+
+//     cout << "Roses are " << color << endl;
+//     cout << pluralNoun << " are violet"<< endl;
+//     cout << "I love " << celebrity << endl;
+
+//     return 0;
+// }
