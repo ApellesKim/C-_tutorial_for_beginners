@@ -109,3 +109,18 @@ using namespace std;
 
     // return 0;
 // }
+
+
+
+// Getting user input
+int main ()
+{
+    int age;
+
+    cout << "What is your age: ";
+    cin >> age;
+
+    cout << "You are " << age << " years old";
+
+    return 0;
+}
