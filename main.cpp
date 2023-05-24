@@ -185,3 +185,103 @@ using namespace std;
 
 //     return 0;
 // }
+
+
+// Functions
+
+// void sayHi(string name, int age){
+//     cout << "Hello " << name << " you are " << age << endl;
+// }
+
+// int main () 
+// {
+//     sayHi ("Mike", 38);
+//     sayHi("Tom", 45);
+//     sayHi("Michael", 23);
+//     sayHi("Jane", 49);
+    
+    
+//     return 0;
+// }
+
+//or 
+
+// void sayHi(string name, int age);
+
+// int main ()
+// {
+    
+//    sayHi ("Mike", 38);
+//    sayHi("Tom", 45);
+//    sayHi("Michael", 23);
+//    sayHi("Jane", 49);
+//     return 0;
+// }
+
+// void sayHi (string name, int age){
+//     cout << "Hello " << name << " you are " << age << endl;
+// }
+
+
+
+// Return statement
+
+// double cube(double num){
+//     double result = num * num * num;
+//     return result;
+// }
+
+// int main ()
+// {
+//     double answer = cube (5.0);
+//     cout << answer;
+
+
+//     return 0;
+// }
+
+
+
+//If statement
+// int main ()
+// {
+//     bool isMale = true;
+//     bool isTall = false;
+
+//     if(isMale && isTall){               // if(isMale || isTall) OR operator: only one should fit to condition in order to execute the code
+//         cout << "You are a tall male";
+//     } else if (isMale && !isTall){
+//         cout << "You are a short male";
+//     } else if (!isMale && isTall){
+//         cout << "You are tall but not male";
+//     } else {
+//         cout << "You are not male and not tall";
+//     }
+
+//     return 0;
+// }
+
+
+// More if statements
+
+// int findMax(int num1, int num2, int num3){
+//     int result;
+
+//     if(num1 >= num2 && num1 >= num3){
+//         result = num1;
+//     } else if(num2 >= num1 && num2 >= num3){
+//         result = num2;
+//     } else {
+//         result = num3;
+//     }
+
+//     return result;
+// }
+
+// int main ()
+// {
+//     cout << findMax (7, 25, 25);
+
+
+//     return 0;
+// }
