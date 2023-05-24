@@ -175,13 +175,30 @@ using namespace std;
 
 
 // Arrays
+// int main ()
+// {
+//     int luckyNums[] = {3, 5, 14, 35, 46, 57, 66, 923};
+
+//     luckyNums[0] = 59;
+
+//     cout << luckyNums[0];
+
+//     return 0;
+// }
+
+
+
+//Functions
+
+void sayHi ()
+{
+    cout << "Hello User";
+}
+
+
 int main ()
 {
-    int luckyNums[] = {3, 5, 14, 35, 46, 57, 66, 923};
-
-    luckyNums[0] = 59;
-
-    cout << luckyNums[0];
-
+    sayHi();
+    
     return 0;
 }
