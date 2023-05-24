@@ -152,7 +152,7 @@ using namespace std;
 
 
 //Building a mad libs game
-int main ()
+// int main ()
 // {
 //     string color, pluralNoun, celebrity;
 
@@ -171,3 +171,17 @@ int main ()
 
 //     return 0;
 // }
+
+
+
+// Arrays
+int main ()
+{
+    int luckyNums[] = {3, 5, 14, 35, 46, 57, 66, 923};
+
+    luckyNums[0] = 59;
+
+    cout << luckyNums[0];
+
+    return 0;
+}
