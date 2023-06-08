@@ -363,3 +363,100 @@ using namespace std;
 //     cout << getDayOfTheWeek (1);
 //     return 0;
 // }
+
+
+
+// string getCharacterOfWord (string x, int aNum){
+//     string alpha;
+
+//     switch (aNum)
+//     {
+//     case 0:
+//         alpha = x[0];
+//         break;
+//     case 1:
+//         alpha = x[1];
+//         break;
+//     case 2:
+//         alpha = x[2];
+//         break;
+//     case 3:
+//         alpha = x[3];
+//         break;
+//     case 4:
+//         alpha = x[4];
+//         break;
+//     case 5:
+//         alpha = x[5];
+//         break;
+//     case 6:
+//         alpha = x[6];
+//         break;
+
+//     default:
+//         cout << "Undefined";
+//         break;
+//     }
+
+
+
+//     return alpha;
+// }
+
+// int main (){
+
+
+//     cout << getCharacterOfWord("Aligator", 3);
+
+//     return 0;
+// }
+
+
+
+// While loop
+
+// int main (){
+
+//     int index = 1;
+
+//     while(index <= 5){
+//         cout << index << endl;
+//         index++;
+//     }
+
+//     return 0;
+// }
+
+
+// Building a guessing game
+
+int main (){
+
+    int secretNum = 7;
+    int guess;
+    int guessCount = 0;
+    int guessLimit = 3;
+    bool outOfGuess = false;
+
+    while (secretNum != guess && !outOfGuess){
+        if(guessCount < guessLimit){
+        cout << "Guess the Number: ";
+        cin >> guess;
+        guessCount++;
+        } else {
+            outOfGuess = true;
+        }
+    }
+
+        if (!outOfGuess){
+            cout << "You Won!";
+        } else {
+            cout << "You Lost...";
+        }
+
+
+    
+
+    return 0;
+}
+
