@@ -527,3 +527,12 @@ using namespace std;
 // }
 
 
+// Comments
+
+int main()
+{
+
+    cout << "Comments are fun!"
+
+    return 0;
+}
