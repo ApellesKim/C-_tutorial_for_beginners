@@ -430,33 +430,100 @@ using namespace std;
 
 // Building a guessing game
 
-int main (){
+// int main (){
 
-    int secretNum = 7;
-    int guess;
-    int guessCount = 0;
-    int guessLimit = 3;
-    bool outOfGuess = false;
+//     int secretNum = 7;
+//     int guess;
+//     int guessCount = 0;
+//     int guessLimit = 3;
+//     bool outOfGuess = false;
 
-    while (secretNum != guess && !outOfGuess){
-        if(guessCount < guessLimit){
-        cout << "Guess the Number: ";
-        cin >> guess;
-        guessCount++;
-        } else {
-            outOfGuess = true;
-        }
-    }
+//     while (secretNum != guess && !outOfGuess){
+//         if(guessCount < guessLimit){
+//         cout << "Guess the Number: ";
+//         cin >> guess;
+//         guessCount++;
+//         } else {
+//             outOfGuess = true;
+//         }
+//     }
 
-        if (!outOfGuess){
-            cout << "You Won!";
-        } else {
-            cout << "You Lost...";
-        }
+//         if (!outOfGuess){
+//             cout << "You Won!";
+//         } else {
+//             cout << "You Lost...";
+//         }
 
 
     
 
-    return 0;
-}
+//     return 0;
+// }
+
+
+// For Loop
+
+
+// int main () 
+// {
+
+    // int index = 1;
+    // while (index <= 5){
+    //     cout << index << endl;
+    //     index++;
+    // }
+
+//     int nums [] = {1, 3, 4, 8, 34};
+//     for (int i = 1; i < 5; i++){
+//         cout << nums[i] << endl;
+//     }
+
+//     return 0;
+// }
+
+
+// Exponent function
+
+// int power (int baseNum, int powNum){
+//     int result = 1;
+//     for(int i = 0; i < powNum; i++){
+//         result = result * baseNum;
+//     }
+
+//     return result;    
+// }
+
+// int main ()
+// {
+//     cout << power(3, 4);
+
+//     return 0;
+// }
+
+
+// 2d Arrays & Nested loops
+
+
+
+// int main (){
+
+// int numberGrid [3][2] = {
+//                         {1, 2},
+//                         {3, 4},
+//                         {5, 6}
+
+//                     };
+
+
+
+//     for (int i = 0; i < 3; i++){
+//         for (int j = 0; j < 2; j++){
+//             cout << numberGrid[i][j];
+//         }
+//         cout << endl;
+//     }
+
+//     return 0;
+// }
+
 
