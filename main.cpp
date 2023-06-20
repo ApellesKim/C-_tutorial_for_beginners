@@ -529,10 +529,73 @@ using namespace std;
 
 // Comments
 
+/*
 int main()
 {
 
     cout << "Comments are fun!"
+
+    return 0;
+}
+*/
+
+
+//Pointers
+
+// int main ()
+// {
+//     int age = 19;
+//     int *pAge = &age;
+//     double gpa = 2.7;
+//     double *pGpa = &gpa;
+//     string name = "Mike";
+//     string *pName = &name;
+
+//     cout << pAge << endl;
+//     cout << pGpa << endl;
+//     cout << pName << endl;
+
+//     cout << *pAge << endl;    // dereferencing the pointer (get the value stored in the address)
+//     cout << *&gpa << endl;    // another way of deferencing the pointer
+//     cout << &*&name << endl;  // get address of the pointer
+//     cout << *&*&name << endl; // dereferencing the pointer
+
+    
+//     /*
+//     cout << "Age: " << &age << endl;
+//     cout << "GPA: " << &gpa << endl;
+//     cout << "Name: " << &name << endl;
+//     */
+
+
+//     return 0;
+// }
+
+
+// Classes & objects
+                            // making data types (Book)
+class Book{                 // blueprint & template & specification
+    public:
+        string title;
+        string author;
+        int pages;
+};
+
+
+int main ()
+{
+    Book book1;         // object is the actual instance of the specification
+    book1.title = "Harry Potter";
+    book1.author = "J.K. Rowling";
+    book1.pages = 500;
+    
+    Book book2;
+    book2.title = "Lord of the Rings";
+    book2.author = "Tolkein";
+    book2.pages = 1200;
+
+    cout << book1.title << endl;
+    cout << book2.title << endl;
 
     return 0;
 }
