@@ -574,28 +574,90 @@ int main()
 
 // Classes & objects
                             // making data types (Book)
-class Book{                 // blueprint & template & specification
-    public:
-        string title;
-        string author;
-        int pages;
-};
+// class Book{                 // blueprint & template & specification
+//     public:
+//         string title;
+//         string author;
+//         int pages;
+// };
 
 
-int main ()
-{
-    Book book1;         // object is the actual instance of the specification
-    book1.title = "Harry Potter";
-    book1.author = "J.K. Rowling";
-    book1.pages = 500;
+// int main ()
+// {
+//     Book book1 ();         // object is the actual instance of the specification
+//     book1.title = "Harry Potter";
+//     book1.author = "J.K. Rowling";
+//     book1.pages = 500;
     
-    Book book2;
-    book2.title = "Lord of the Rings";
-    book2.author = "Tolkein";
-    book2.pages = 1200;
+//     Book book2 ();
+//     book2.title = "Lord of the Rings";
+//     book2.author = "Tolkein";
+//     book2.pages = 1200;
 
-    cout << book1.title << endl;
-    cout << book2.title << endl;
+//     //cout << book1.title << endl;
+//     //cout << book2.title << endl;
 
-    return 0;
-}
+//     return 0;
+// }
+
+
+
+// Constructor functions
+
+// class Book{                 // blueprint & template & specification
+//     public:
+//         string title;
+//         string author;
+//         int pages;
+//         /*
+//         Book(){            // constructor functions #1
+//            cout << "Object created" << endl;
+//         };
+//         Book(string name){     // constructor functions #2 (receiving parameter)
+//             cout << name << endl;
+//         };
+//         */
+//         Book(string aTitle, string aAuthor, int aPages){  // constructor functions #3 (receving multiples of parameter)
+//             title = aTitle;
+//             author = aAuthor;
+//             pages = aPages;
+//         };
+//         Book(){
+//             title = "no title";
+//             author = "no author";
+//             pages = 0;
+//         };
+// };
+
+
+// int main ()
+// {
+//     /*
+//     Book book1 ("Harry Potter");         // object is the actual instance of the specification
+//     book1.title = "Harry Potter";
+//     book1.author = "J.K. Rowling";
+//     book1.pages = 500;
+    
+//     Book book2 ("Lord of the Rings");
+//     book2.title = "Lord of the Rings";
+//     book2.author = "Tolkein";
+//     book2.pages = 1200;
+//     */
+
+//     Book book3 ("Hunger Games", "Suzzane Collins", 367);
+
+//     Book book4;
+
+//     cout << book4.title;
+
+//     //cout << book3.pages << endl;
+//     //cout << book3.author << endl;
+//     //cout << book3.title << endl;
+
+
+
+//     //cout << book1.title << endl;
+//     //cout << book2.title << endl;
+
+//     return 0;
+// }
