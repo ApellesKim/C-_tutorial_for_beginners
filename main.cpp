@@ -661,3 +661,130 @@ int main()
 
 //     return 0;
 // }
+
+
+//Object functions
+
+// class Student{
+//     public:
+//     string name;
+//     string major;
+//     double gpa;
+//     Student (string aName, string aMajor, double aGpa){
+//         name = aName;
+//         major = aMajor;
+//         gpa = aGpa;
+//     }
+
+//     bool hasHonors(){
+//         if(gpa >= 3.5){
+//             return true;
+//         }
+//         return false;
+//     }
+
+// };
+
+
+// int main ()
+// {
+//     Student student1("Jim", "Business", 2.4);
+//     Student student2("John", "CS", 4.3);
+
+
+//     cout << student2.hasHonors () << endl;
+
+
+//     return 0;
+// }
+
+
+
+//Getters & setters
+
+/*
+class Movie{
+    private:
+        string rating;
+    public:
+        string title;
+        string director;
+        Movie(string aTitle, string aDirector, string aRating){
+            title = aTitle;
+            director = aDirector;
+            setRating (aRating);
+        }
+
+
+        void setRating (string aRating){
+            if (aRating == "G" || aRating == "PG" || aRating == "PG-13" || aRating == "R" || aRating == "NR"){
+                rating = aRating;
+            } else {
+                rating = "NR";
+            }
+        }
+
+        string getRating (){
+            return rating;
+        }
+
+};
+
+int main ()
+{
+    Movie movie1("Avengers", "Steven", "PG-13");
+
+    //movie1.setRating("Dog");
+
+    cout << movie1.getRating();
+    
+
+
+
+    return 0;
+}
+*/
+
+
+//Inheritance
+
+/*
+class Chef {  //Super class
+    public:
+        void makeChicken () {
+            cout << "The chef makes chicken" << endl;
+        }
+        void makeSalad () {
+            cout << "The chef makes salad" << endl;
+        }
+        void makeSpecialDish () {
+            cout << "The chef makes bbq ribs" << endl;
+        }
+};
+
+class ItalianChef : public Chef{  //subclass
+    public:
+        void makePasta(){
+            cout << "The chef makes pasta" << endl;
+        }
+
+        void makeSpecialDish () {
+            cout << "The chef makes chicken parm" << endl;  // overriding previous specialDish
+        }
+
+
+};
+
+int main (){
+
+    Chef Juliet;
+    Juliet.makeSpecialDish();
+
+    ItalianChef Pierre;
+    Pierre.makeSpecialDish();
+
+
+    return 0;
+}
+
+*/
